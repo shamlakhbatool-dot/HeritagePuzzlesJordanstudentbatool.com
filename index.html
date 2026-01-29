@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
+<head><meta name="description" content="مشروع رحلة التراث عبر الألغاز - مدرسة تلاع العلي الثانوية - الأسبوع العربي للبرمجة 2025. ابتكار تعليمي يدمج الهولوغرام بالبرمجة.">
+<meta name="keywords" content="الأسبوع العربي للبرمجة, نسرين الشناق, مدرسة تلاع العلي, رحلة التراث عبر الألغاز, هولوغرام تعليمي, الأردن">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>لعبة التراث عبر الألغاز | الاسبوع العربي للبرمجة</title>
@@ -156,13 +157,73 @@
             .hero h1 { font-size: 1.8rem; }
             section { padding: 40px 5%; }
         }
+        /* Community Impact & Video Styling */
+.community-section {
+    background-color: #f3e8ff; /* نهدي فاتح جداً */
+    padding: 60px 10%;
+    border-radius: 30px;
+    margin: 40px 0;
+}
+
+.community-grid {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.community-text {
+    flex: 2;
+}
+
+.community-image {
+    flex: 2;
+    text-align: center;
+}
+
+.community-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 10px 20px rgba(124, 58, 237, 0.2);
+}
+
+.video-box {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.video-box video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+    border: 4px solid #7c3aed; /* نهدي */
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+}
+
+.check-list li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #1e3a8a; /* أزرق */
+}
+
+.check-list li::before {
+    content: "✅ ";
+    margin-left: 10px;
+}
     </style>
 </head>
 <body>
 
 <header>
     <div class="event-title">الاسبوع العربي للبرمجة | Arab Code Week 2025</div>
-    <div class="school-name">مدرسة تلاع العلي الثانوية</div>
+    <div class="school-name">مدرسة تلاع العلي الثانوية -الاردن </div>
 </header>
 
 <section class="hero">
@@ -177,10 +238,7 @@
 <section id="about">
     <h2 class="section-title">فكرة المشروع ورؤيته</h2>
     <p style="text-align: center; max-width: 900px; margin: 0 auto;">
-        انطلق المشروع من رؤية المعلمة نسرين الشناق
-         لدمج التقنية بالتعليم بطريقة غير تقليدية. حولنا المدرسة إلى مسار رقمي يربط الماضي بالمستقبل، حيث تكتشف الطالبة التراث من خلال حل الألغاز البرمجية والتفاعل مع الشخصيات التاريخية عبر تقنية الهولوغرام وال
-         QRCode 
-         عبر جوجل فورم.
+        انطلق المشروع من رؤية المعلمة نسرين الشناق لدمج التقنية بالتعليم بطريقة غير تقليدية. حولنا المدرسة إلى مسار رقمي يربط الماضي بالمستقبل، حيث تكتشف الطالبة التراث من خلال حل الألغاز البرمجية والتفاعل مع الشخصيات التاريخية عبر تقنية الهولوغرام والـ QRCode عبر جوجل فورم.
     </p>
 </section>
 
@@ -201,7 +259,32 @@
         </div>
     </div>
 </section>
+<section class="community-section">
+    <div class="community-grid">
+        <div class="community-text">
+            <h2 style="color: #1e3a8a; margin-bottom: 20px;">توسيع الأثر: الهولوغرام كجسر للمجتمع المحلي</h2>
+            <p style="margin-bottom: 20px;">
+                لم يتوقف طموحنا عند أسوار المدرسة، بل عملنا على نقل التجربة لقلب المجتمع المحلي ليكون شريكاً في النجاح.
+            </p>
+            <ul class="check-list">
+                <li>تدريب أولياء الأمور والمجتمع المحلي على تقنيات الهولوغرام البسيطة.</li>
+                <li>إرسال فيديوهات الألغاز التراثية للأهالي لعرضها في المنازل مع أبنائهم.</li>
+                <li>تحويل التكنولوجيا إلى نشاط عائلي تفاعلي يربط الأجيال بهويتهم.</li>
+                <li>تمكين المجتمع من استخدام الأدوات الرقمية لخدمة الثقافة والتعليم.</li>
+            </ul>
+        </div>
+        <div class="community-image">
+            <img src="impact-image.jpg.jpg" alt="Community Interaction">
+        </div>
+    </div>
+</section>
 
+<div class="video-box">
+    <h2 style="color: #1e3a8a; margin-bottom: 25px;">شاهد كيف يتفاعل الطلاب مع تقنية الهيلوغرام</h2>
+    <video controls>
+        <source src="students-interaction.mp4.mp4" type="video/mp4">
+    </video>
+</div> 
 <section id="team">
     <h2 class="section-title">المبتكرون خلف المشروع</h2>
     <div class="team-box">
@@ -243,6 +326,104 @@
             <li>✅ <strong>مرونة المحتوى:</strong> محرك ألغاز قابل للتكيف مع أي ثقافة أو منهاج دراسي.</li>
             <li>✅ <strong>استدامة طلابية:</strong> تمكين الطالبات من إدارة وتطوير المشروع بأنفسهن.</li>
         </ul>
+        <section id="video-quiz-challenge" style="padding: 60px 10%; background: linear-gradient(to bottom, #f3e8ff, #ffffff); font-family: 'Cairo', sans-serif;">
+    <h2 class="section-title">مثال على احد الالغاز التراثية</h2> 
+    
+    <div style="background: white; padding: 30px; border-radius: 25px; box-shadow: 0 15px 35px rgba(124, 58, 237, 0.15); border: 2px solid #7c3aed; max-width: 850px; margin: 0 auto;">
+        
+        <div style="text-align: center; margin-bottom: 30px;">
+            <p style="color: #7c3aed; font-weight: bold; margin-bottom: 15px;">📺 شاهد الفيديو بتركيز لتكتشف الحل:</p>
+            <div style="position: relative; border-radius: 15px; border: 3px solid #1e3a8a; overflow: hidden;">
+                <video controls style="width: 100%;">
+                    <source src="quiz-video.mp4.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0;">
+
+        <div style="text-align: center;">
+            <p style="font-size: 1.3rem; color: #1e3a8a; margin-bottom: 25px; font-weight: bold;">
+                ما هو المعلم التراثي المقصود؟
+            </p>
+
+            <div id="quiz-options" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <button onclick="handleResponse(this, false)" class="quiz-btn">A) معبد أبو سمبل</button>
+                <button onclick="handleResponse(this, false)" class="quiz-btn">B) وادي الملوك</button>
+                <button onclick="handleResponse(this, true)" class="quiz-btn">C) الأهرامات المصرية</button>
+                <button onclick="handleResponse(this, false)" class="quiz-btn">D) معبد الأقصر</button>
+            </div>
+
+            <div id="quiz-feedback" style="margin-top: 25px; font-weight: 700; font-size: 1.2rem; min-height: 40px;"></div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .quiz-btn {
+        padding: 18px;
+        border: 2px solid #e2e8f0;
+        border-radius: 12px;
+        background: #f8fafc;
+        cursor: pointer;
+        font-family: 'Cairo', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #334155;
+        transition: all 0.2s ease;
+    }
+
+    .quiz-btn:hover {
+        border-color: #7c3aed;
+        background: #f5f3ff;
+    }
+
+    .correct-ans {
+        background-color: #dcfce7 !important;
+        border-color: #22c55e !important;
+        color: #166534 !important;
+    }
+
+    .wrong-ans {
+        background-color: #fee2e2 !important;
+        border-color: #ef4444 !important;
+        color: #991b1b !important;
+    }
+</style>
+
+<script>
+function handleResponse(btn, isCorrect) {
+    const feedback = document.getElementById('quiz-feedback');
+    
+    // إزالة التنسيقات السابقة عند كل ضغطة جديدة لتجنب كشف الحل
+    const allBtns = document.querySelectorAll('.quiz-btn');
+    allBtns.forEach(b => {
+        b.classList.remove('wrong-ans');
+        // لا نزيل "correct-ans" لكي لا تختفي إذا وجدها المستخدم فعلاً
+    });
+
+    if (isCorrect) {
+        // إذا ضغط على الإجابة الصحيحة
+        btn.classList.add('correct-ans');
+        btn.innerHTML = "C) الأهرامات المصرية ✅";
+        feedback.innerHTML = "ممتاز! إجابة صحيحة 🌟";
+        feedback.style.color = "#22c55e";
+        
+        // تعطيل الأزرار فقط بعد اكتشاف الحل الصحيح
+        allBtns.forEach(b => b.style.pointerEvents = "none");
+    } else {
+        // إذا ضغط على إجابة خاطئة
+        btn.classList.add('wrong-ans');
+        feedback.innerHTML = "خطأ! أعيد مشاهدة الفيديو وحاول مرة أخرى 🧐";
+        feedback.style.color = "#ef4444";
+        
+        // يبقى الزر أحمر لفترة قصيرة ثم يعود ليسمح بالمحاولة مرة أخرى
+        setTimeout(() => {
+            btn.classList.remove('wrong-ans');
+        }, 1000);
+    }
+}
+</script>
         <p style="margin-top: 20px; font-weight: bold; color: var(--tech-purple); text-align: center;">
             إبداعنا يبدأ من مدرسة تلاع العلي.. وهدفه إلهام العالم.
         </p>
